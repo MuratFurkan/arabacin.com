@@ -1,0 +1,429 @@
+body{
+    /*
+    background: url(img/yarka.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    text-align: center;
+    */
+    background-color: white;
+    text-align: center;
+
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+/**/
+#kategoriler{
+    margin-top: 15px;
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+}
+.box{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#b1:hover{
+    background-color: gainsboro;
+    opacity: 0.3;
+}
+#b2:hover{
+    background-color: gainsboro;
+    opacity: 0.3;
+}
+#b3:hover{
+    background-color: gainsboro;
+    opacity: 0.3;
+}
+#b4:hover{
+    background-color: gainsboro;
+    opacity: 0.3;
+}
+
+#magazabaslık{
+    height: 100px;
+    width: 100%;
+    background-color: #666;
+    border-radius: 30px;
+}
+#logo{
+    float: left;
+    height: 100%;
+    width: 20%;
+
+}
+.menu {
+	width:50%;
+	margin:0 auto;
+	background:gainsboro;
+}
+.menu ul {
+	display:block;
+	margin:0;
+	text-align:center;
+	padding:0
+}
+.menu ul li {
+	list-style:none;
+	display:inline-block;
+}
+.menu ul li a {
+	display:block;
+	background:#666;
+	color:gainsboro;
+	font-size:20px;
+	padding:20px 20px;
+	text-decoration:none;
+	font-family: Arial;
+    border: solid 2px gainsboro;
+    border-radius: 30px;
+    
+}
+.menu ul li a:hover {
+	background:#666;
+	transition:1s;
+    color: black;
+}
+.menu ul li ul {
+	display:none;
+	position:absolute;
+	width:200px;
+}
+.menu ul li ul li {
+	display:block
+}
+.menu ul li:hover > a {
+	background:gainsboro;
+	transition:1s;
+}
+.menu ul li ul li a {
+	background:#666;
+	text-align:left;
+	transition:1s;
+    border: solid 2px gainsboro;
+    border-radius: 30px;
+}
+.menu ul li ul li a:hover {
+	background:gainsboro;
+	transition:1s;
+    color: black;
+}
+.menu ul li:hover ul {
+	display:block
+}
+#grskyt{
+    float: right;
+    width: 30%;
+    height: 35%;
+}
+.ilanlar{
+    height: 900px;
+    width: 100%;
+    background-color: gainsboro;
+    border-radius: 15px ;
+    border: solid black;
+    margin-top: 15px;
+    
+}
+.ibox{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: beige;
+    border: solid 2px black;
+    margin-top: 20px;
+    margin-left: 27px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+#i1:hover{
+    background-color: black;
+    opacity: 0.3;
+}
+#i2:hover{
+    background-color: black;
+    opacity: 0.3;
+}
+#i3:hover{
+    background-color: black;
+    opacity: 0.3;
+}
+#i4:hover{
+    background-color: black;
+    opacity: 0.3;
+}
+#soru{
+    height: 800px;
+    width: 100%;
+    background-color:gainsboro;
+    filter:alpha(opacity=60);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    border: solid black;
+}
+.sr1{
+    border: solid 1px grey;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+.sr2{
+    border: solid 1px grey;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+#buton{
+    width: 100px;
+    height: 70px;
+    border-radius: 15px;
+    border: solid 3px black;
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    color: grey;
+}
+ul {
+    padding: 0px;
+}
+ol, ul {
+    margin-bottom: 0px;
+}
+
+.social-icon {
+    padding: 0;
+    margin-bottom: 15px;
+    margin-left: 850px;
+}
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+
+}
+.social-icon li i {
+    font-size: 14px;
+    color: #262725;
+    border: solid 2px grey;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    line-height: 27px;
+    margin-right: 15px;
+    transition: 1s;
+    background: grey;
+}
+.social-icon li i:hover {
+    border: solid 2px #262725;
+    color: black;
+    background: #262725;
+}
+
+.phone-no i {
+    position: relative;
+    margin-right: 14px;
+    font-size: 43px;
+    top: 5px;
+}
+.phone-no {
+    margin-top: -22px;
+    text-align: right;
+}
+.footer-day-time {
+    padding-bottom: 30px;
+    border-bottom: 5px solid grey;
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-bottom: 55px;
+}
+.footer-day-time ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.footer-day-time ul li:last-child {
+    margin-right: 0px;
+}
+.phone-no a {
+    color: grey;
+    font-family: PlayfairDisplay-Black;
+    font-size: 34px;
+    font-weight: bold;
+}
+.footer-top {
+    background: gainsboro;
+    padding:50px 0 50px;
+    border-bottom: 5px solid white;
+    border-radius: 30px;
+    border: solid black;
+}
+.footer-top h4 {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer-top p {
+    font-size: 13px;
+    line-height: 2;
+}
+
+footer p {
+  margin-bottom:0;
+}
+.footer-logo {
+    display: block;
+    margin-bottom: 32px;
+}
+.address1 li {
+    list-style: none;
+    position: relative;
+    padding: 0px 0 14px 34px;
+    line-height: 26px;
+}
+ul.address1 span {
+    position: absolute;
+    width: 40px;
+    max-width: 40px;
+    left: 0;
+}
+.address1 li a {
+    color: grey;
+    text-decoration: none;
+}
+ul.address1 i {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+}
+
+ul.address1 i.fa-envelope {
+    font-size: 18px;
+    top: 4px;
+}
+footer ul.social-icon {
+    float: left;
+}
+footer .social-icon li i:hover {
+    background: gainsboro;
+    border-color: black;
+}
+
+.footer-bottom {
+    background: grey;
+    padding: 10px 0px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.footer-bottom ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.footer-bottom ul li a{
+    color:white;
+}
+
+.footer-bottom ul {
+    float: right;
+}
+
+.footer-bottom ul li:last-child {
+    margin-right: 0;
+}
+.copyright {
+    font-size: 18px;
+}
+
+#iltorta{
+    background: gainsboro;
+    height: 800px;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#ilt{
+    background-color: grey;
+    height: 500px;
+    width: 900px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+#ifr{
+    background-color: grey;
+    height: 500px;
+    width: 620px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+}
+#hakorta{
+    background: gainsboro;
+    height: 800px;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#hakyazı{
+    background-color: grey;
+    height: 300px;
+    width: 900px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 460px;
+    float: left;
+}
+.loginregister{
+    height: 80%;
+    width: 20%;
+    float: left;
+    border: solid 3px #666;
+    border-radius: 15px;
+}
+.loginregister a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #666;
+} 
+.loginregister a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    color: gainsboro;
+} 
+.loginregister:hover{
+    height: 80%;
+    width: 20%;
+    float: left;
+    border: solid 3px black;
+    border-radius: 10px; 
+    background-color: #666; 
+}
+#kyt{
+    margin-left: 30px;
+}
